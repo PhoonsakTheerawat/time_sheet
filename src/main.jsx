@@ -3,17 +3,17 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 import App from './App.jsx'
-import Register from './test/Register.jsx'
+import RegisterPage from '../src/components/pages/RegisterPage.jsx'
 
 const router = createBrowserRouter([
   {
     path:"/",
-    element:<App />
+    element:<App/>
   },
 
   {
-    path:"/register",
-    element:<Register />
+    path:"/registerpage",
+    element:<RegisterPage />
   },
 ]);
 

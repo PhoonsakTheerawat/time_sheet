@@ -1,11 +1,11 @@
 import React from 'react'
-import Login from './test/Login'
+import LoginPage from './components/pages/LoginPage'
 import './App.css'
 
 function App() {
   return (
     <>
-      <Login/>
+      <LoginPage/>
     </>
   )
 }
