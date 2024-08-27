@@ -1,4 +1,6 @@
-const Button = ({ type = 'button', label, onClick }) => {
+import React from 'react'
+
+function Button({ type = 'button', label, onClick }) {
   return (
     <button 
       className='bg-neutral-900 text-white rounded-3xl px-6 py-2' 
@@ -7,7 +9,7 @@ const Button = ({ type = 'button', label, onClick }) => {
     >
       {label}
     </button>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button

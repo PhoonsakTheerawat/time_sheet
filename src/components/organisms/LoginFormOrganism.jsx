@@ -5,7 +5,7 @@ import PasswordInput from "../molecules/PasswordInput";
 //import { Link } from "react-router-dom";
 import LinkPage from "../atoms/LinkPage";
 
-const LoginFormOrganism = () => {
+function LoginFormOrganism() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -53,7 +53,7 @@ const LoginFormOrganism = () => {
         <Button type="submit" label="Login" />
       </div>
     </form>
-  );
-};
+  )
+}
 
-export default LoginFormOrganism;
+export default LoginFormOrganism

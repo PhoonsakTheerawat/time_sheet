@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Input from '../atoms/Input';
 import IconVisible from '../atoms/IconVisible';
 
-const PasswordInput = ({name, placeholder, value, onChange })  => {
+function PasswordInput({name, placeholder, value, onChange }) {
   const [visible, setVisible] = useState(false);
 
   return (
@@ -12,7 +12,7 @@ const PasswordInput = ({name, placeholder, value, onChange })  => {
         />
       <IconVisible visible={visible} onClick={() => setVisible(!visible)} />
     </div>
-  );
-};
+  )
+}
 
-export default PasswordInput;
+export default PasswordInput

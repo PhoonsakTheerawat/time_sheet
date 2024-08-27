@@ -15,6 +15,7 @@ const router = createBrowserRouter([
     path:"/registerpage",
     element:<RegisterPage />
   },
+
 ]);
 
 createRoot(document.getElementById('root')).render(
